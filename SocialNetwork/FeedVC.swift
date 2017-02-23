@@ -19,6 +19,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+            print(snapshot.value ?? "")
+        })
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -30,8 +34,12 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID, for: indexPath)
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID, for: indexPath) as? PostCell {
+            return cell
+        }else {
+            return UITableViewCell()
+        }
+        
     }
 
     
