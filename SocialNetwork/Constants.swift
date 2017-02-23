@@ -9,3 +9,9 @@
 import UIKit
 
 let SHADOW_GRAY: CGFloat = 120/255
+
+let KEY_UID = "uid"
+
+let SHOW_FEED = "showFeed"
+let SHOW_SIGNIN = "showSignInScreen"
+
