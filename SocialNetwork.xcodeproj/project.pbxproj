@@ -21,6 +21,7 @@
 		609A2E791E5E3538004C7FDB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E781E5E3538004C7FDB /* FeedVC.swift */; };
 		609A2E7B1E5EE93A004C7FDB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E7A1E5EE93A004C7FDB /* CircleView.swift */; };
 		609A2E7D1E5EF363004C7FDB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E7C1E5EF363004C7FDB /* PostCell.swift */; };
+		609A2E9E1E5F2FEA004C7FDB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E9D1E5F2FEA004C7FDB /* DataService.swift */; };
 		C644605AF350CD3FCA5399C5 /* Pods_SocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C267DCC9146A7CB2C7CF74 /* Pods_SocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		609A2E781E5E3538004C7FDB /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		609A2E7A1E5EE93A004C7FDB /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		609A2E7C1E5EF363004C7FDB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		609A2E9D1E5F2FEA004C7FDB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D0788351ABD55E873C3CE9EA /* Pods-SocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 		609A2E551E5DDFFA004C7FDB /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				609A2E9C1E5F2FCE004C7FDB /* Services */,
 				609A2E6F1E5DF351004C7FDB /* Util */,
 				609A2E6C1E5DE294004C7FDB /* Controller */,
 				609A2E6B1E5DE290004C7FDB /* View */,
@@ -136,6 +139,14 @@
 				609A2E701E5DF363004C7FDB /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		609A2E9C1E5F2FCE004C7FDB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				609A2E9D1E5F2FEA004C7FDB /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		DC623DCAA5B183248DD9893B /* Pods */ = {
@@ -277,6 +288,7 @@
 				609A2E591E5DDFFA004C7FDB /* SignInVC.swift in Sources */,
 				609A2E731E5DF50B004C7FDB /* RoundButton.swift in Sources */,
 				609A2E771E5DF91B004C7FDB /* FancyButton.swift in Sources */,
+				609A2E9E1E5F2FEA004C7FDB /* DataService.swift in Sources */,
 				609A2E791E5E3538004C7FDB /* FeedVC.swift in Sources */,
 				609A2E571E5DDFFA004C7FDB /* AppDelegate.swift in Sources */,
 				609A2E6E1E5DF2D8004C7FDB /* FancyView.swift in Sources */,

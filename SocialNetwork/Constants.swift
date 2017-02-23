@@ -17,3 +17,5 @@ let SHOW_SIGNIN = "showSignInScreen"
 
 let CELL_ID = "FeedTableCell"
 
+let DB_USER_PROVIDER  = "provider"
+
