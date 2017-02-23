@@ -20,6 +20,7 @@
 		609A2E771E5DF91B004C7FDB /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E761E5DF91B004C7FDB /* FancyButton.swift */; };
 		609A2E791E5E3538004C7FDB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E781E5E3538004C7FDB /* FeedVC.swift */; };
 		609A2E7B1E5EE93A004C7FDB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E7A1E5EE93A004C7FDB /* CircleView.swift */; };
+		609A2E7D1E5EF363004C7FDB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E7C1E5EF363004C7FDB /* PostCell.swift */; };
 		C644605AF350CD3FCA5399C5 /* Pods_SocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C267DCC9146A7CB2C7CF74 /* Pods_SocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		609A2E761E5DF91B004C7FDB /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		609A2E781E5E3538004C7FDB /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		609A2E7A1E5EE93A004C7FDB /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		609A2E7C1E5EF363004C7FDB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D0788351ABD55E873C3CE9EA /* Pods-SocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				609A2E741E5DF7E8004C7FDB /* FancyField.swift */,
 				609A2E761E5DF91B004C7FDB /* FancyButton.swift */,
 				609A2E7A1E5EE93A004C7FDB /* CircleView.swift */,
+				609A2E7C1E5EF363004C7FDB /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				609A2E571E5DDFFA004C7FDB /* AppDelegate.swift in Sources */,
 				609A2E6E1E5DF2D8004C7FDB /* FancyView.swift in Sources */,
 				609A2E711E5DF363004C7FDB /* Constants.swift in Sources */,
+				609A2E7D1E5EF363004C7FDB /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

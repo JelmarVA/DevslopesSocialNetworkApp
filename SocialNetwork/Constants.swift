@@ -15,3 +15,5 @@ let KEY_UID = "uid"
 let SHOW_FEED = "showFeed"
 let SHOW_SIGNIN = "showSignInScreen"
 
+let CELL_ID = "FeedTableCell"
+
