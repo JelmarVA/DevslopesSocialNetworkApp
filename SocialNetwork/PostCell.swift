@@ -21,5 +21,10 @@ class PostCell: UITableViewCell, UITextFieldDelegate {
         
         // Initialization code
     }
+    
+    func configueCell(post: Post) {
+        self.caption.text = post.caption
+        self.likesLbl.text = "\(post.likes)"
+    }
 
 }
