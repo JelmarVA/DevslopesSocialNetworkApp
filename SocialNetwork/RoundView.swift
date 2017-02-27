@@ -1,19 +1,19 @@
 //
-//  FancyButton.swift
+//  RoundView.swift
 //  SocialNetwork
 //
-//  Created by Jelmar Van Aert on 22/02/2017.
+//  Created by Jelmar Van Aert on 26/02/2017.
 //  Copyright © 2017 Jelmar Van Aert. All rights reserved.
 //
 
 import UIKit
 
-class FancyButton: UIButton, DropShadow, RoundEdges {
-
+class RoundView: UIView, RoundEdges, DropShadow {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        makeCircle()
         addDropShadow()
-        roundEdges(withRadius: 2.0)
     }
+
 }

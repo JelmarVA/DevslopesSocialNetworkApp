@@ -19,3 +19,8 @@ let CELL_ID = "FeedTableCell"
 
 let DB_USER_PROVIDER  = "provider"
 
+let DB_USER_IMG_URL = "profileImgUrl"
+
+let DB_USER_NAME = "username"
+
+let DB_USER_POSTS = "posts"

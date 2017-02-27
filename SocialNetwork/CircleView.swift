@@ -8,11 +8,10 @@
 
 import UIKit
 
-class CircleView: UIImageView {
+class CircleView: UIImageView, RoundEdges {
     
     override func layoutSubviews() {
-        layer.cornerRadius = self.frame.width / 2
-        clipsToBounds = true
+        makeCircle()
     }
 
 }

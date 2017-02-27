@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60186E581E62FC4D002ECD68 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60186E571E62FC4D002ECD68 /* DropShadow.swift */; };
+		60186E5A1E62FCDF002ECD68 /* RoundEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60186E591E62FCDF002ECD68 /* RoundEdges.swift */; };
+		60186E5C1E62FE3A002ECD68 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60186E5B1E62FE3A002ECD68 /* RoundView.swift */; };
 		609A2E571E5DDFFA004C7FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E561E5DDFFA004C7FDB /* AppDelegate.swift */; };
 		609A2E591E5DDFFA004C7FDB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E581E5DDFFA004C7FDB /* SignInVC.swift */; };
 		609A2E5C1E5DDFFA004C7FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609A2E5A1E5DDFFA004C7FDB /* Main.storyboard */; };
@@ -23,12 +26,19 @@
 		609A2E7D1E5EF363004C7FDB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E7C1E5EF363004C7FDB /* PostCell.swift */; };
 		609A2E9E1E5F2FEA004C7FDB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E9D1E5F2FEA004C7FDB /* DataService.swift */; };
 		609A2EA01E61C06A004C7FDB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A2E9F1E61C06A004C7FDB /* Post.swift */; };
+		60D2D3311E6303200081C082 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2D3301E6303200081C082 /* ProfileVC.swift */; };
+		60D2D3371E6339170081C082 /* TableViewSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2D3361E6339170081C082 /* TableViewSetupVC.swift */; };
+		60D2D33B1E644BB80081C082 /* EnabledDisableField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2D33A1E644BB80081C082 /* EnabledDisableField.swift */; };
+		60D2D33D1E6471670081C082 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2D33C1E6471670081C082 /* Profile.swift */; };
 		C644605AF350CD3FCA5399C5 /* Pods_SocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C267DCC9146A7CB2C7CF74 /* Pods_SocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C267DCC9146A7CB2C7CF74 /* Pods_SocialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		135F69B8A797CCB253B9ED16 /* Pods-SocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		60186E571E62FC4D002ECD68 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		60186E591E62FCDF002ECD68 /* RoundEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundEdges.swift; sourceTree = "<group>"; };
+		60186E5B1E62FE3A002ECD68 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		609A2E531E5DDFFA004C7FDB /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609A2E561E5DDFFA004C7FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		609A2E581E5DDFFA004C7FDB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		609A2E7C1E5EF363004C7FDB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		609A2E9D1E5F2FEA004C7FDB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		609A2E9F1E61C06A004C7FDB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		60D2D3301E6303200081C082 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		60D2D3361E6339170081C082 /* TableViewSetupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSetupVC.swift; sourceTree = "<group>"; };
+		60D2D33A1E644BB80081C082 /* EnabledDisableField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnabledDisableField.swift; sourceTree = "<group>"; };
+		60D2D33C1E6471670081C082 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		D0788351ABD55E873C3CE9EA /* Pods-SocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork/Pods-SocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +84,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		60186E561E62FC06002ECD68 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				60186E571E62FC4D002ECD68 /* DropShadow.swift */,
+				60186E591E62FCDF002ECD68 /* RoundEdges.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		609A2E4A1E5DDFFA004C7FDB = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +114,7 @@
 		609A2E551E5DDFFA004C7FDB /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				60186E561E62FC06002ECD68 /* Protocols */,
 				609A2E9C1E5F2FCE004C7FDB /* Services */,
 				609A2E6F1E5DF351004C7FDB /* Util */,
 				609A2E6C1E5DE294004C7FDB /* Controller */,
@@ -110,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				609A2E9F1E61C06A004C7FDB /* Post.swift */,
+				60D2D33C1E6471670081C082 /* Profile.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -123,6 +148,8 @@
 				609A2E761E5DF91B004C7FDB /* FancyButton.swift */,
 				609A2E7A1E5EE93A004C7FDB /* CircleView.swift */,
 				609A2E7C1E5EF363004C7FDB /* PostCell.swift */,
+				60186E5B1E62FE3A002ECD68 /* RoundView.swift */,
+				60D2D33A1E644BB80081C082 /* EnabledDisableField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -132,6 +159,8 @@
 			children = (
 				609A2E581E5DDFFA004C7FDB /* SignInVC.swift */,
 				609A2E781E5E3538004C7FDB /* FeedVC.swift */,
+				60D2D3301E6303200081C082 /* ProfileVC.swift */,
+				60D2D3361E6339170081C082 /* TableViewSetupVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -287,17 +316,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				609A2E7B1E5EE93A004C7FDB /* CircleView.swift in Sources */,
+				60D2D33B1E644BB80081C082 /* EnabledDisableField.swift in Sources */,
 				609A2E751E5DF7E8004C7FDB /* FancyField.swift in Sources */,
 				609A2E591E5DDFFA004C7FDB /* SignInVC.swift in Sources */,
 				609A2EA01E61C06A004C7FDB /* Post.swift in Sources */,
+				60D2D3311E6303200081C082 /* ProfileVC.swift in Sources */,
+				60186E5C1E62FE3A002ECD68 /* RoundView.swift in Sources */,
+				60186E581E62FC4D002ECD68 /* DropShadow.swift in Sources */,
 				609A2E731E5DF50B004C7FDB /* RoundButton.swift in Sources */,
 				609A2E771E5DF91B004C7FDB /* FancyButton.swift in Sources */,
 				609A2E9E1E5F2FEA004C7FDB /* DataService.swift in Sources */,
 				609A2E791E5E3538004C7FDB /* FeedVC.swift in Sources */,
 				609A2E571E5DDFFA004C7FDB /* AppDelegate.swift in Sources */,
 				609A2E6E1E5DF2D8004C7FDB /* FancyView.swift in Sources */,
+				60186E5A1E62FCDF002ECD68 /* RoundEdges.swift in Sources */,
 				609A2E711E5DF363004C7FDB /* Constants.swift in Sources */,
+				60D2D33D1E6471670081C082 /* Profile.swift in Sources */,
 				609A2E7D1E5EF363004C7FDB /* PostCell.swift in Sources */,
+				60D2D3371E6339170081C082 /* TableViewSetupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
